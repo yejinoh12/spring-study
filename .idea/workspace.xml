@@ -5,23 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9d3932f3-3be5-4e24-abe2-e23abcf8cfd0" name="Changes" comment="[Design Pattern] Strategy">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/advanced/src/main/java/yejin/advanced/app/v5/OrderControllerV5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/advanced/src/main/java/yejin/advanced/app/v5/OrderRepositoryV5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/advanced/src/main/java/yejin/advanced/app/v5/OrderServiceV5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/advanced/src/main/java/yejin/advanced/trace/callback/TraceCallback.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/advanced/src/main/java/yejin/advanced/trace/callback/TraceTemplate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/advanced/src/test/java/yejin/advanced/trace/strategy/TemplateCallbackTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/advanced/src/test/java/yejin/advanced/trace/strategy/code/template/Callback.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/advanced/src/test/java/yejin/advanced/trace/strategy/code/template/TimeLogTemplate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/src/test/java/yejin/advanced/trace/strategy/ContextV1Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/src/test/java/yejin/advanced/trace/strategy/ContextV1Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/src/test/java/yejin/advanced/trace/strategy/ContextV2Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/src/test/java/yejin/advanced/trace/strategy/ContextV2Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/src/test/java/yejin/advanced/trace/strategy/code/ContextV1.java" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/src/test/java/yejin/advanced/trace/strategy/code/strategy/ContextV1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/src/test/java/yejin/advanced/trace/strategy/code/ContextV2.java" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/src/test/java/yejin/advanced/trace/strategy/code/strategy/ContextV2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/src/test/java/yejin/advanced/trace/strategy/code/Strategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/src/test/java/yejin/advanced/trace/strategy/code/strategy/Strategy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/src/test/java/yejin/advanced/trace/strategy/code/StrategyLogic1.java" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/src/test/java/yejin/advanced/trace/strategy/code/strategy/StrategyLogic1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/src/test/java/yejin/advanced/trace/strategy/code/StrategyLogic2.java" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/src/test/java/yejin/advanced/trace/strategy/code/strategy/StrategyLogic2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/build.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,7 +17,13 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
     <projectState path="$PROJECT_DIR$/advanced">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/proxy">
       <ProjectState />
     </projectState>
   </component>
@@ -38,7 +32,12 @@
       <state>
         <projects_view>
           <tree_state>
-            <expand />
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="advanced" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
             <select />
           </tree_state>
         </projects_view>
@@ -56,17 +55,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "yejinoh12"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;yejinoh12&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/yejinoh12/spring-study.git",
-    "accountId": "9238a47d-afe6-4ffe-92e2-80a52a3b1091"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/yejinoh12/spring-study.git&quot;,
+    &quot;accountId&quot;: &quot;9238a47d-afe6-4ffe-92e2-80a52a3b1091&quot;
   }
+}</component>
+  <component name="KubernetesApiPersistence"><![CDATA[{}]]></component>
+  <component name="KubernetesApiProvider"><![CDATA[{
+  "isMigrated": true
 }]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
@@ -92,7 +95,7 @@
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/ohyej/OneDrive/spring-study/advanced/src/main/java/yejin/advanced/app/v5",
+    "last_opened_file_path": "C:/spring-study2/proxy/build.gradle",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -230,6 +233,7 @@
       <updated>1735373028500</updated>
       <workItem from="1735373029664" duration="390000" />
       <workItem from="1735401009340" duration="4548000" />
+      <workItem from="1735413536365" duration="90000" />
     </task>
     <task id="LOCAL-00001" summary="[Design Pattern] Strategy">
       <option name="closed" value="true" />
