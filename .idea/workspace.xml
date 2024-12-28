@@ -4,16 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d3932f3-3be5-4e24-abe2-e23abcf8cfd0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/advanced/src/test/java/yejin/advanced/trace/strategy/ContextV2Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/advanced/src/test/java/yejin/advanced/trace/strategy/code/ContextV2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+    <list default="true" id="9d3932f3-3be5-4e24-abe2-e23abcf8cfd0" name="Changes" comment="[Design Pattern] Strategy">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/advanced/src/main/java/yejin/advanced/app/v5/OrderControllerV5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/advanced/src/main/java/yejin/advanced/app/v5/OrderRepositoryV5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/advanced/src/main/java/yejin/advanced/app/v5/OrderServiceV5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/advanced/src/main/java/yejin/advanced/trace/callback/TraceCallback.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/advanced/src/main/java/yejin/advanced/trace/callback/TraceTemplate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/advanced/src/test/java/yejin/advanced/trace/strategy/TemplateCallbackTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/advanced/src/test/java/yejin/advanced/trace/strategy/code/template/Callback.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/advanced/src/test/java/yejin/advanced/trace/strategy/code/template/TimeLogTemplate.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/advanced/src/test/java/yejin/advanced/trace/strategy/ContextV1Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/src/test/java/yejin/advanced/trace/strategy/ContextV1Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/src/test/java/yejin/advanced/trace/strategy/code/ContextV1.java" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/src/test/java/yejin/advanced/trace/strategy/code/ContextV1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced/src/test/java/yejin/advanced/trace/strategy/ContextV2Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/src/test/java/yejin/advanced/trace/strategy/ContextV2Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced/src/test/java/yejin/advanced/trace/strategy/code/ContextV1.java" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/src/test/java/yejin/advanced/trace/strategy/code/strategy/ContextV1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced/src/test/java/yejin/advanced/trace/strategy/code/ContextV2.java" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/src/test/java/yejin/advanced/trace/strategy/code/strategy/ContextV2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced/src/test/java/yejin/advanced/trace/strategy/code/Strategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/src/test/java/yejin/advanced/trace/strategy/code/strategy/Strategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced/src/test/java/yejin/advanced/trace/strategy/code/StrategyLogic1.java" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/src/test/java/yejin/advanced/trace/strategy/code/strategy/StrategyLogic1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced/src/test/java/yejin/advanced/trace/strategy/code/StrategyLogic2.java" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/src/test/java/yejin/advanced/trace/strategy/code/strategy/StrategyLogic2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +44,14 @@
         </projects_view>
       </state>
     </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -67,13 +83,16 @@
     "JUnit.ContextV1Test.strategyV0.executor": "Run",
     "JUnit.ContextV1Test.strategyV1.executor": "Run",
     "JUnit.ContextV2Test.strategyV2.executor": "Run",
+    "JUnit.ContextV2Test.strategyV3.executor": "Run",
+    "JUnit.TemplateCallbackTest.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Spring Boot.AdvancedApplication.executor": "Run",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/cas/IdeaProjects/Spring",
+    "last_opened_file_path": "C:/Users/ohyej/OneDrive/spring-study/advanced/src/main/java/yejin/advanced/app/v5",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -88,6 +107,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ohyej\OneDrive\spring-study\advanced\src\main\java\yejin\advanced\app\v5" />
       <recent name="C:\Users\cas\IdeaProjects\Spring" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -95,7 +115,7 @@
       <recent name="yejin.advanced.trace.strategy.code" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ContextV2Test.strategyV3">
+  <component name="RunManager" selected="Spring Boot.AdvancedApplication">
     <configuration name="ContextV1Test.strategyV0" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="yejin.advanced.test" />
       <extension name="coverage">
@@ -160,6 +180,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TemplateCallbackTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="yejin.advanced.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="yejin.advanced.trace.strategy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="yejin.advanced.trace.strategy" />
+      <option name="MAIN_CLASS_NAME" value="yejin.advanced.trace.strategy.TemplateCallbackTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="AdvancedApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="yejin.advanced.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="yejin.advanced.AdvancedApplication" />
@@ -169,6 +204,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TemplateCallbackTest" />
         <item itemvalue="JUnit.ContextV2Test.strategyV3" />
         <item itemvalue="JUnit.ContextV2Test.strategyV2" />
         <item itemvalue="JUnit.ContextV1Test.strategyV1" />
@@ -193,8 +229,17 @@
       <option name="presentableId" value="Default" />
       <updated>1735373028500</updated>
       <workItem from="1735373029664" duration="390000" />
-      <workItem from="1735401009340" duration="2299000" />
+      <workItem from="1735401009340" duration="4548000" />
     </task>
+    <task id="LOCAL-00001" summary="[Design Pattern] Strategy">
+      <option name="closed" value="true" />
+      <created>1735403932526</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1735403932526</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -222,5 +267,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="[Design Pattern] Strategy" />
+    <option name="LAST_COMMIT_MESSAGE" value="[Design Pattern] Strategy" />
   </component>
 </project>
