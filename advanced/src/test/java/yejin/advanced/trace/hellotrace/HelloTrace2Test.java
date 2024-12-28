@@ -1,14 +1,13 @@
-package yejin.advanced.trace;
+package yejin.advanced.trace.hellotrace;
 
 import org.junit.jupiter.api.Test;
-import yejin.advanced.trace.hellotrace.HelloTraceV1;
-import yejin.advanced.trace.hellotrace.HelloTraceV2;
+import yejin.advanced.trace.TraceStatus;
 
-public class HelloTraceV2Test {
+public class HelloTrace2Test {
 
     @Test
     void begin_end() {
-        HelloTraceV2 trace = new HelloTraceV2();
+        HelloTrace2 trace = new HelloTrace2();
         TraceStatus status1 = trace.begin("Hello");
         TraceStatus status2 = trace.beginSync(status1.getTraceId(), "Hello2");
         trace.end(status2);
@@ -17,7 +16,7 @@ public class HelloTraceV2Test {
 
     @Test
     void begin_exception() {
-        HelloTraceV2 trace = new HelloTraceV2();
+        HelloTrace2 trace = new HelloTrace2();
         TraceStatus status1 = trace.begin("Hello");
         TraceStatus status2 = trace.beginSync(status1.getTraceId(), "Hello2");
         trace.exception(status2, new IllegalStateException());

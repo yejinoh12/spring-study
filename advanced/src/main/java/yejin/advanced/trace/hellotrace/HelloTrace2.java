@@ -9,7 +9,7 @@ import yejin.advanced.trace.TraceStatus;
 
 @Slf4j
 @Component
-public class HelloTraceV2 {
+public class HelloTrace2 {
 
     private static final String START_PREFIX = "-->";
     private static final String COMPLETE_PREFIX = "<--";

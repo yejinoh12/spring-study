@@ -1,22 +1,22 @@
-package yejin.advanced.app.v2;
+package yejin.advanced.app.v3;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Repository;
-import yejin.advanced.trace.TraceId;
 import yejin.advanced.trace.TraceStatus;
 import yejin.advanced.trace.hellotrace.HelloTrace2;
+import yejin.advanced.trace.logtrace.LogTrace;
 
 @Repository
 @RequiredArgsConstructor
-public class OrderRepositoryV2 {
+public class OrderRepositoryV3 {
 
-    private final HelloTrace2 trace;
+    private final LogTrace trace;
 
-    public void save(TraceId traceId, String itemId) {
+    public void save(String itemId) {
 
         TraceStatus status = null;
         try {
-            status = trace.beginSync(traceId, "OrderRepositoryV2.request");
+            status = trace.begin("OrderRepositoryV2.request");
 
             //저장 로직
             if (itemId.equals("ex")) {
