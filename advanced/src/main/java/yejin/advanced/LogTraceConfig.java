@@ -4,6 +4,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import yejin.advanced.trace.logtrace.FieldLogTrace;
 import yejin.advanced.trace.logtrace.LogTrace;
+import yejin.advanced.trace.logtrace.ThreadLocalLogTrace;
 
 //로그 트레이스 빈 수동 등록
 
@@ -12,6 +13,6 @@ public class LogTraceConfig {
 
     @Bean
     public LogTrace logTrace() {
-        return new FieldLogTrace();
+        return new ThreadLocalLogTrace();
     }
 }
