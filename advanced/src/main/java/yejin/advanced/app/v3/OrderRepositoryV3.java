@@ -16,7 +16,7 @@ public class OrderRepositoryV3 {
 
         TraceStatus status = null;
         try {
-            status = trace.begin("OrderRepositoryV2.request");
+            status = trace.begin("OrderRepository.save()");
 
             //저장 로직
             if (itemId.equals("ex")) {
