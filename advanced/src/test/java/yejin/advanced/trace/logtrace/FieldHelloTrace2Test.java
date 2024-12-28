@@ -1,7 +1,8 @@
 package yejin.advanced.trace.logtrace;
 
+import com.advanced.trace.logtrace.FieldLogTrace;
 import org.junit.jupiter.api.Test;
-import yejin.advanced.trace.TraceStatus;
+import com.advanced.trace.TraceStatus;
 
 class FieldHelloTrace2Test {
 

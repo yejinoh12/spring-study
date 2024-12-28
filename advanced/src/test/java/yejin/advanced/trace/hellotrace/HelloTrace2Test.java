@@ -1,7 +1,8 @@
 package yejin.advanced.trace.hellotrace;
 
+import com.advanced.trace.hellotrace.HelloTrace2;
 import org.junit.jupiter.api.Test;
-import yejin.advanced.trace.TraceStatus;
+import com.advanced.trace.TraceStatus;
 
 public class HelloTrace2Test {
 

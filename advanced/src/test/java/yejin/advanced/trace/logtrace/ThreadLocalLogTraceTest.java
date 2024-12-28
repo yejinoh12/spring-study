@@ -1,9 +1,8 @@
 package yejin.advanced.trace.logtrace;
 
+import com.advanced.trace.logtrace.ThreadLocalLogTrace;
 import org.junit.jupiter.api.Test;
-import yejin.advanced.trace.TraceStatus;
-
-import static org.junit.jupiter.api.Assertions.*;
+import com.advanced.trace.TraceStatus;
 
 class ThreadLocalLogTraceTest {
 
