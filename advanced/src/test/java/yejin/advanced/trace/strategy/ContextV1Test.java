@@ -4,6 +4,10 @@ package yejin.advanced.trace.strategy;
 import lombok.extern.slf4j.Slf4j;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
+import yejin.advanced.trace.strategy.code.ContextV1;
+import yejin.advanced.trace.strategy.code.Strategy;
+import yejin.advanced.trace.strategy.code.StrategyLogic1;
+import yejin.advanced.trace.strategy.code.StrategyLogic2;
 import yejin.advanced.trace.template.code.AbstractTemplate;
 import yejin.advanced.trace.template.code.SubClassLogic1;
 import yejin.advanced.trace.template.code.SubClassLogic2;
@@ -45,37 +49,14 @@ public class ContextV1Test {
     }
 
     @Test
-    @DisplayName("템플릿 메서드 패턴 적용")
-    void templateMethodV1() {
-        //비즈니스 로직 1
-        AbstractTemplate template1 = new SubClassLogic1();
-        template1.execute();
-        //비즈니스 로직 2
-        AbstractTemplate template2 = new SubClassLogic2();
-        template2.execute();
-    }
+    @DisplayName("전략을 주입 받는 방식")
+    void strategyV1(){
+        Strategy strategy = new StrategyLogic1();
+        ContextV1 contextV1 = new ContextV1(strategy);
+        contextV1.execute();
 
-    @Test
-    @DisplayName("익명 내부 클래스 사용")
-    void templateMethodV2() {
-
-        AbstractTemplate template1 = new AbstractTemplate() {
-            @Override
-            protected void call() {
-                log.info("비즈니스 로직1 실행");
-            }
-        };
-        log.info("클래스 이름1 = {}", template1.getClass()); //TemplateMethodTest$1 -> 익명 내부 클래스 이름은 자바가 임의로 만들어 줌
-        template1.execute();
-
-        AbstractTemplate template2 = new AbstractTemplate() {
-            @Override
-            protected void call() {
-                log.info("비즈니스 로직2 실행");
-            }
-        };
-        log.info("클래스 이름2 = {}", template2.getClass()); //TemplateMethodTest$2
-        template2.execute();
-
+        Strategy strategy2 = new StrategyLogic2();
+        ContextV1 contextV2 = new ContextV1(strategy2);
+        contextV2.execute();
     }
 }
