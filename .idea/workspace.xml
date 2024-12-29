@@ -4,12 +4,65 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d3932f3-3be5-4e24-abe2-e23abcf8cfd0" name="Changes" comment="[Design Pattern] Strategy">
+    <list default="true" id="9d3932f3-3be5-4e24-abe2-e23abcf8cfd0" name="Changes" comment="[Design Pattern] Proxy">
+      <change afterPath="$PROJECT_DIR$/proxy/src/main/java/hello/proxy/app/v1/OrderControllerV1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proxy/src/main/java/hello/proxy/app/v1/OrderControllerV1Impl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proxy/src/main/java/hello/proxy/app/v1/OrderRepositoryV1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proxy/src/main/java/hello/proxy/app/v1/OrderRepositoryV1Impl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proxy/src/main/java/hello/proxy/app/v1/OrderServiceV1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proxy/src/main/java/hello/proxy/app/v1/OrderServiceV1Impl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proxy/src/main/java/hello/proxy/app/v2/OrderControllerV2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proxy/src/main/java/hello/proxy/app/v2/OrderRepositoryV2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proxy/src/main/java/hello/proxy/app/v2/OrderServiceV2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proxy/src/main/java/hello/proxy/app/v3/OrderControllerV3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proxy/src/main/java/hello/proxy/app/v3/OrderRepositoryV3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proxy/src/main/java/hello/proxy/app/v3/OrderServiceV3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proxy/src/main/java/hello/proxy/config/AppV1Config.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proxy/src/main/java/hello/proxy/config/AppV2Config.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proxy/src/test/java/hello/proxy/purepoxy/proxy/ProxyPatternTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proxy/src/test/java/hello/proxy/purepoxy/proxy/code/CacheProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proxy/src/test/java/hello/proxy/purepoxy/proxy/code/ProxyPatternClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proxy/src/test/java/hello/proxy/purepoxy/proxy/code/RealSubject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proxy/src/test/java/hello/proxy/purepoxy/proxy/code/Subject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced/src/main/java/com/advanced/app/v5/OrderControllerV5.java" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/src/main/java/com/advanced/app/v5/OrderControllerV5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced/src/main/java/com/advanced/app/v5/OrderServiceV5.java" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/src/main/java/com/advanced/app/v5/OrderServiceV5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced/src/test/java/yejin/advanced/AdvancedApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/src/test/java/com/advanced/AdvancedApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced/src/test/java/yejin/advanced/trace/hellotrace/HelloTrace2Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/src/test/java/com/advanced/trace/hellotrace/HelloTrace2Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced/src/test/java/yejin/advanced/trace/hellotrace/HelloTraceV1Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/src/test/java/com/advanced/trace/hellotrace/HelloTraceV1Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced/src/test/java/yejin/advanced/trace/logtrace/FieldHelloTrace2Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/src/test/java/com/advanced/trace/logtrace/FieldHelloTrace2Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced/src/test/java/yejin/advanced/trace/logtrace/ThreadLocalLogTraceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/src/test/java/com/advanced/trace/logtrace/ThreadLocalLogTraceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced/src/test/java/yejin/advanced/trace/strategy/ContextV1Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/src/test/java/com/advanced/trace/strategy/ContextV1Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced/src/test/java/yejin/advanced/trace/strategy/ContextV2Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/src/test/java/com/advanced/trace/strategy/ContextV2Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced/src/test/java/yejin/advanced/trace/strategy/TemplateCallbackTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/src/test/java/com/advanced/trace/strategy/TemplateCallbackTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced/src/test/java/yejin/advanced/trace/strategy/code/strategy/ContextV1.java" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/src/test/java/com/advanced/trace/strategy/code/strategy/ContextV1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced/src/test/java/yejin/advanced/trace/strategy/code/strategy/ContextV2.java" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/src/test/java/com/advanced/trace/strategy/code/strategy/ContextV2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced/src/test/java/yejin/advanced/trace/strategy/code/strategy/Strategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/src/test/java/com/advanced/trace/strategy/code/strategy/Strategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced/src/test/java/yejin/advanced/trace/strategy/code/strategy/StrategyLogic1.java" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/src/test/java/com/advanced/trace/strategy/code/strategy/StrategyLogic1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced/src/test/java/yejin/advanced/trace/strategy/code/strategy/StrategyLogic2.java" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/src/test/java/com/advanced/trace/strategy/code/strategy/StrategyLogic2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced/src/test/java/yejin/advanced/trace/strategy/code/template/Callback.java" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/src/test/java/com/advanced/trace/strategy/code/template/Callback.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced/src/test/java/yejin/advanced/trace/strategy/code/template/TimeLogTemplate.java" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/src/test/java/com/advanced/trace/strategy/code/template/TimeLogTemplate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced/src/test/java/yejin/advanced/trace/template/TemplateMethodTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/src/test/java/com/advanced/trace/template/TemplateMethodTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced/src/test/java/yejin/advanced/trace/template/code/AbstractTemplate.java" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/src/test/java/com/advanced/trace/template/code/AbstractTemplate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced/src/test/java/yejin/advanced/trace/template/code/SubClassLogic1.java" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/src/test/java/com/advanced/trace/template/code/SubClassLogic1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced/src/test/java/yejin/advanced/trace/template/code/SubClassLogic2.java" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/src/test/java/com/advanced/trace/template/code/SubClassLogic2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced/src/test/java/yejin/advanced/trace/treadlocal/FieldServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/src/test/java/com/advanced/trace/treadlocal/FieldServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced/src/test/java/yejin/advanced/trace/treadlocal/ThreadLocalServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/src/test/java/com/advanced/trace/treadlocal/ThreadLocalServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced/src/test/java/yejin/advanced/trace/treadlocal/code/FieldService.java" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/src/test/java/com/advanced/trace/treadlocal/code/FieldService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced/src/test/java/yejin/advanced/trace/treadlocal/code/ThreadLocalService.java" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/src/test/java/com/advanced/trace/treadlocal/code/ThreadLocalService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proxy/src/main/java/hello/proxy/ProxyApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/proxy/src/main/java/hello/proxy/ProxyApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,14 +83,15 @@
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
+        <task path="$PROJECT_DIR$/advanced">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/proxy">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
-            <expand>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="advanced" type="f1a62948:ProjectNode" />
-              </path>
-            </expand>
+            <expand />
             <select />
           </tree_state>
         </projects_view>
@@ -77,25 +131,41 @@
   <component name="ProjectId" id="2qpws5lIq6f0TyLqxaKRWwAG5cB" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;Gradle.Build advanced.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Build proxy.executor&quot;: &quot;Run&quot;,
     &quot;Gradle.C:/Users/cas/IdeaProjects/Spring/proxy-start/build.gradle.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.HelloTrace2Test.begin_end.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.HelloTrace2Test.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.ProxyApplicationTests.contextLoads.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.ProxyPatternTest.cacheProxyTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.ProxyPatternTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.ProxyPatternTest.noProxyTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.advanced [build].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.advanced [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.advanced [testClasses].executor&quot;: &quot;Run&quot;,
     &quot;JUnit.ContextV1Test.strategyV0.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.ContextV1Test.strategyV1.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.ContextV2Test.strategyV2.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.ContextV2Test.strategyV3.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.TemplateCallbackTest.executor&quot;: &quot;Run&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Spring Boot.AdvancedApplication (1).executor&quot;: &quot;Run&quot;,
     &quot;Spring Boot.AdvancedApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.ProxyApplication.executor&quot;: &quot;Run&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/spring-study2/proxy/build.gradle&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/ohyej/OneDrive/spring-study/advanced&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -104,117 +174,200 @@
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ohyej\OneDrive\spring-study\proxy\src\main\java\hello\proxy\app\v3" />
+      <recent name="C:\Users\ohyej\OneDrive\spring-study\proxy\src\main\java\hello\proxy\app\v2" />
       <recent name="C:\Users\ohyej\OneDrive\spring-study\advanced\src\main\java\yejin\advanced\app\v5" />
       <recent name="C:\Users\cas\IdeaProjects\Spring" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ohyej\OneDrive\spring-study\advanced\src\test" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="hello.proxy.config" />
       <recent name="yejin.advanced.trace.strategy" />
       <recent name="yejin.advanced.trace.strategy.code" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.AdvancedApplication (1)">
-    <configuration name="ContextV1Test.strategyV1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="yejin.advanced.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="yejin.advanced.trace.strategy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="yejin.advanced.trace.strategy" />
-      <option name="MAIN_CLASS_NAME" value="yejin.advanced.trace.strategy.ContextV1Test" />
-      <option name="METHOD_NAME" value="strategyV1" />
-      <option name="TEST_OBJECT" value="method" />
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="MicronautRunConfigurationType" />
+        <option value="QuarkusRunConfigurationType" />
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Gradle.ProxyPatternTest">
+    <configuration name="HelloTrace2Test.begin_end" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/advanced" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;com.advanced.trace.hellotrace.HelloTrace2Test.begin_end&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="ProxyApplicationTests.contextLoads" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/proxy" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;hello.proxy.ProxyApplicationTests.contextLoads&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="ProxyPatternTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/proxy" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;hello.proxy.purepoxy.proxy.ProxyPatternTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="ProxyPatternTest.cacheProxyTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/proxy" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;hello.proxy.purepoxy.proxy.ProxyPatternTest.cacheProxyTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="ProxyPatternTest.noProxyTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/proxy" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;hello.proxy.purepoxy.proxy.ProxyPatternTest.noProxyTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="spring-study.advanced" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ContextV2Test.strategyV2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="yejin.advanced.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="yejin.advanced.trace.strategy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="yejin.advanced.trace.strategy" />
-      <option name="MAIN_CLASS_NAME" value="yejin.advanced.trace.strategy.ContextV2Test" />
-      <option name="METHOD_NAME" value="strategyV2" />
-      <option name="TEST_OBJECT" value="method" />
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="spring-study.advanced" />
+      <option name="filePath" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ContextV2Test.strategyV3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="yejin.advanced.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="yejin.advanced.trace.strategy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="yejin.advanced.trace.strategy" />
-      <option name="MAIN_CLASS_NAME" value="yejin.advanced.trace.strategy.ContextV2Test" />
-      <option name="METHOD_NAME" value="strategyV3" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TemplateCallbackTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="yejin.advanced.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="yejin.advanced.trace.strategy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="yejin.advanced.trace.strategy" />
-      <option name="MAIN_CLASS_NAME" value="yejin.advanced.trace.strategy.TemplateCallbackTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AdvancedApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="com.advanced.main" />
+    <configuration name="AdvancedApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-study.advanced.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.advanced.AdvancedApplication" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.advanced.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AdvancedApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <option name="SPRING_BOOT_MAIN_CLASS" value="yejin.advanced.AdvancedApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="ProxyApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="proxy.main" />
+      <module name="hello.proxy.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="hello.proxy.ProxyApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Gradle.ProxyPatternTest" />
+      <item itemvalue="Gradle.ProxyPatternTest.cacheProxyTest" />
+      <item itemvalue="Gradle.ProxyPatternTest.noProxyTest" />
+      <item itemvalue="Gradle.HelloTrace2Test.begin_end" />
+      <item itemvalue="Gradle.ProxyApplicationTests.contextLoads" />
+      <item itemvalue="Spring Boot.AdvancedApplication" />
+      <item itemvalue="Spring Boot.ProxyApplication" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.AdvancedApplication (1)" />
-        <item itemvalue="JUnit.TemplateCallbackTest" />
-        <item itemvalue="JUnit.ContextV2Test.strategyV3" />
-        <item itemvalue="JUnit.ContextV2Test.strategyV2" />
-        <item itemvalue="JUnit.ContextV1Test.strategyV1" />
+        <item itemvalue="Gradle.ProxyPatternTest" />
+        <item itemvalue="Gradle.ProxyPatternTest.cacheProxyTest" />
+        <item itemvalue="Gradle.ProxyPatternTest.noProxyTest" />
+        <item itemvalue="Gradle.ProxyApplicationTests.contextLoads" />
+        <item itemvalue="Gradle.HelloTrace2Test.begin_end" />
       </list>
     </recent_temporary>
   </component>
@@ -237,6 +390,13 @@
       <workItem from="1735373029664" duration="390000" />
       <workItem from="1735401009340" duration="4548000" />
       <workItem from="1735413536365" duration="90000" />
+      <workItem from="1735413765820" duration="265000" />
+      <workItem from="1735414289484" duration="652000" />
+      <workItem from="1735440768356" duration="3020000" />
+      <workItem from="1735443837348" duration="255000" />
+      <workItem from="1735444479761" duration="50000" />
+      <workItem from="1735444766935" duration="1949000" />
+      <workItem from="1735446756903" duration="207000" />
     </task>
     <task id="LOCAL-00001" summary="[Design Pattern] Strategy">
       <option name="closed" value="true" />
@@ -246,7 +406,23 @@
       <option name="project" value="LOCAL" />
       <updated>1735403932526</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Proxy Project Setting">
+      <option name="closed" value="true" />
+      <created>1735413802976</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1735413802976</updated>
+    </task>
+    <task id="LOCAL-00003" summary="delete files">
+      <option name="closed" value="true" />
+      <created>1735413960116</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1735413960116</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -277,6 +453,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="[Design Pattern] Strategy" />
-    <option name="LAST_COMMIT_MESSAGE" value="[Design Pattern] Strategy" />
+    <MESSAGE value="Proxy Project Setting" />
+    <MESSAGE value="delete files" />
+    <option name="LAST_COMMIT_MESSAGE" value="delete files" />
   </component>
 </project>

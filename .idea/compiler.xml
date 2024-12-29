@@ -6,13 +6,24 @@
       <profile name="Gradle Imported" enabled="true">
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="false">
-          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.projectlombok/lombok/1.18.20/18bcea7d5df4d49227b4a0743a536208ce4825bb/lombok-1.18.20.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.projectlombok/lombok/1.18.36/5a30490a6e14977d97d9c73c924c1f1b5311ea95/lombok-1.18.36.jar" />
         </processorPath>
-        <module name="proxy.test" />
-        <module name="proxy.main" />
+        <module name="spring-study.advanced.main" />
+        <module name="spring-study.advanced.test" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="advanced.proxy" target="17" />
+      <module name="advanced.proxy.main" target="17" />
+      <module name="advanced.proxy.test" target="17" />
+      <module name="com.advanced" target="17" />
+      <module name="com.advanced.main" target="17" />
+      <module name="com.advanced.test" target="17" />
+      <module name="proxy" target="11" />
+      <module name="proxy.main" target="11" />
+      <module name="proxy.test" target="11" />
+      <module name="spring.main" target="17" />
+      <module name="spring.test" target="17" />
       <module name="yejin.advanced" target="17" />
       <module name="yejin.advanced.main" target="17" />
       <module name="yejin.advanced.test" target="17" />

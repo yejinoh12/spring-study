@@ -12,7 +12,7 @@ public class OrderServiceV5 {
     private final TraceTemplate traceTemplate;
 
     //람다 사용
-    public void OrderItem(String itemId) {
+    public void orderItem(String itemId) {
         traceTemplate.execute("OrderService.orderItem()", () -> {
             orderRepository.save(itemId);
             return null;

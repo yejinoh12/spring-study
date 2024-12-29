@@ -21,7 +21,7 @@ public class OrderControllerV5 {
         return traceTemplate.execute("OrderController.request()", new TraceCallback<>() {
             @Override
             public String call() {
-                orderService.OrderItem(itemId);
+                orderService.orderItem(itemId);
                 return "ok";
             }
         });
