@@ -4,19 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d3932f3-3be5-4e24-abe2-e23abcf8cfd0" name="Changes" comment="[Design Pattern] Decorator">
-      <change afterPath="$PROJECT_DIR$/proxy/src/main/java/hello/proxy/config/v1_proxy/ConcreteProxyConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proxy/src/main/java/hello/proxy/config/v1_proxy/InterfaceProxyConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proxy/src/main/java/hello/proxy/config/v1_proxy/concrete_proxy/OrderControllerConcreteProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proxy/src/main/java/hello/proxy/config/v1_proxy/concrete_proxy/OrderRepositoryConcreteProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proxy/src/main/java/hello/proxy/config/v1_proxy/concrete_proxy/OrderServiceConcreteProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proxy/src/main/java/hello/proxy/config/v1_proxy/interface_proxy/OrderControllerInterfaceProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proxy/src/main/java/hello/proxy/config/v1_proxy/interface_proxy/OrderRepositoryInterfaceProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proxy/src/main/java/hello/proxy/config/v1_proxy/interface_proxy/OrderServiceInterfaceProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proxy/src/test/java/hello/proxy/purepoxy/concreteproxy/ConcreteProxyTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proxy/src/test/java/hello/proxy/purepoxy/concreteproxy/code/ConcreteClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proxy/src/test/java/hello/proxy/purepoxy/concreteproxy/code/ConcreteLogic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proxy/src/test/java/hello/proxy/purepoxy/concreteproxy/code/TimeProxy.java" afterDir="false" />
+    <list default="true" id="9d3932f3-3be5-4e24-abe2-e23abcf8cfd0" name="Changes" comment="인터페이스, 구체 클래스 기반  프록시">
+      <change afterPath="$PROJECT_DIR$/proxy/src/main/java/hello/proxy/config/v2_dynamicproxy/DynamicProxyBasicConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proxy/src/main/java/hello/proxy/config/v2_dynamicproxy/DynamicProxyFilterConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proxy/src/main/java/hello/proxy/config/v2_dynamicproxy/handler/LogTraceBasicHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proxy/src/main/java/hello/proxy/config/v2_dynamicproxy/handler/LogTraceFilterHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proxy/src/test/java/hello/proxy/cglib/CglibTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proxy/src/test/java/hello/proxy/cglib/code/TimeMethodInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proxy/src/test/java/hello/proxy/common/ConcreteService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proxy/src/test/java/hello/proxy/common/ServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proxy/src/test/java/hello/proxy/common/ServiceInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proxy/src/test/java/hello/proxy/jdkdynamic/JdkDynamicProxyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proxy/src/test/java/hello/proxy/jdkdynamic/ReflectionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proxy/src/test/java/hello/proxy/jdkdynamic/code/AImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proxy/src/test/java/hello/proxy/jdkdynamic/code/AInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proxy/src/test/java/hello/proxy/jdkdynamic/code/BImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proxy/src/test/java/hello/proxy/jdkdynamic/code/BInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proxy/src/test/java/hello/proxy/jdkdynamic/code/TimeInvocationHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/proxy/src/main/java/hello/proxy/ProxyApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/proxy/src/main/java/hello/proxy/ProxyApplication.java" afterDir="false" />
     </list>
@@ -95,6 +99,7 @@
     "Gradle.Build advanced.executor": "Run",
     "Gradle.Build proxy.executor": "Run",
     "Gradle.C:/Users/cas/IdeaProjects/Spring/proxy-start/build.gradle.executor": "Run",
+    "Gradle.CglibTest.cglib.executor": "Run",
     "Gradle.ConcreteProxyTest.addProxy.executor": "Run",
     "Gradle.ConcreteProxyTest.noProxy.executor": "Run",
     "Gradle.DecoratorPatternClient.noDecorator.executor": "Run",
@@ -105,10 +110,16 @@
     "Gradle.DecoratorPatternTest.noDecorator.executor": "Run",
     "Gradle.HelloTrace2Test.begin_end.executor": "Run",
     "Gradle.HelloTrace2Test.executor": "Run",
+    "Gradle.JdkDynamicProxyTest.dynamicA.executor": "Run",
+    "Gradle.JdkDynamicProxyTest.dynamicB.executor": "Run",
+    "Gradle.JdkDynamicProxyTest.executor": "Run",
     "Gradle.ProxyApplicationTests.contextLoads.executor": "Run",
     "Gradle.ProxyPatternTest.cacheProxyTest.executor": "Run",
     "Gradle.ProxyPatternTest.executor": "Run",
     "Gradle.ProxyPatternTest.noProxyTest.executor": "Run",
+    "Gradle.ReflectionTest.reflection0.executor": "Run",
+    "Gradle.ReflectionTest.reflection1.executor": "Run",
+    "Gradle.ReflectionTest.reflection2.executor": "Run",
     "Gradle.advanced [build].executor": "Run",
     "Gradle.advanced [clean].executor": "Run",
     "Gradle.advanced [testClasses].executor": "Run",
@@ -130,7 +141,7 @@
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/ohyej/OneDrive/spring-study/advanced",
+    "last_opened_file_path": "C:/spring-study/proxy/src/test/java/hello/proxy/jdkdynamic/code",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -146,6 +157,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\spring-study\proxy\src\test\java\hello\proxy\jdkdynamic\code" />
       <recent name="C:\Users\ohyej\OneDrive\spring-study\proxy\src\main\java\hello\proxy\app\v3" />
       <recent name="C:\Users\ohyej\OneDrive\spring-study\proxy\src\main\java\hello\proxy\app\v2" />
       <recent name="C:\Users\ohyej\OneDrive\spring-study\advanced\src\main\java\yejin\advanced\app\v5" />
@@ -155,9 +167,11 @@
       <recent name="C:\Users\ohyej\OneDrive\spring-study\advanced\src\test" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="hello.proxy.config.v2_dynamicproxy" />
+      <recent name="hello.proxy.config.v2_dynamicproxy.handler" />
+      <recent name="hello.proxy.jdkdynamic.code" />
       <recent name="hello.proxy.config" />
       <recent name="yejin.advanced.trace.strategy" />
-      <recent name="yejin.advanced.trace.strategy.code" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -169,8 +183,8 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ProxyApplication">
-    <configuration name="ConcreteProxyTest.addProxy" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.CglibTest.cglib">
+    <configuration name="CglibTest.cglib" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/proxy" />
@@ -183,7 +197,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;hello.proxy.purepoxy.concreteproxy.ConcreteProxyTest.addProxy&quot;" />
+            <option value="&quot;hello.proxy.cglib.CglibTest.cglib&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -194,7 +208,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="ConcreteProxyTest.noProxy" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="JdkDynamicProxyTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/proxy" />
@@ -207,7 +221,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;hello.proxy.purepoxy.concreteproxy.ConcreteProxyTest.noProxy&quot;" />
+            <option value="&quot;hello.proxy.jdkdynamic.JdkDynamicProxyTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -218,7 +232,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="DecoratorPatternTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="JdkDynamicProxyTest.dynamicA" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/proxy" />
@@ -231,7 +245,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;hello.proxy.purepoxy.decorator.DecoratorPatternTest&quot;" />
+            <option value="&quot;hello.proxy.jdkdynamic.JdkDynamicProxyTest.dynamicA&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -242,7 +256,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="DecoratorPatternTest.decorator2" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="JdkDynamicProxyTest.dynamicB" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/proxy" />
@@ -255,7 +269,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;hello.proxy.purepoxy.decorator.DecoratorPatternTest.decorator2&quot;" />
+            <option value="&quot;hello.proxy.jdkdynamic.JdkDynamicProxyTest.dynamicB&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -266,7 +280,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="DecoratorPatternTest.decorator3" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="ReflectionTest.reflection2" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/proxy" />
@@ -279,7 +293,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;hello.proxy.purepoxy.decorator.DecoratorPatternTest.decorator3&quot;" />
+            <option value="&quot;hello.proxy.jdkdynamic.ReflectionTest.reflection2&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -318,21 +332,21 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Gradle.ConcreteProxyTest.addProxy" />
-      <item itemvalue="Gradle.ConcreteProxyTest.noProxy" />
-      <item itemvalue="Gradle.DecoratorPatternTest" />
-      <item itemvalue="Gradle.DecoratorPatternTest.decorator2" />
-      <item itemvalue="Gradle.DecoratorPatternTest.decorator3" />
+      <item itemvalue="Gradle.CglibTest.cglib" />
+      <item itemvalue="Gradle.JdkDynamicProxyTest" />
+      <item itemvalue="Gradle.JdkDynamicProxyTest.dynamicA" />
+      <item itemvalue="Gradle.JdkDynamicProxyTest.dynamicB" />
+      <item itemvalue="Gradle.ReflectionTest.reflection2" />
       <item itemvalue="Spring Boot.AdvancedApplication" />
       <item itemvalue="Spring Boot.ProxyApplication" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.ConcreteProxyTest.addProxy" />
-        <item itemvalue="Gradle.ConcreteProxyTest.noProxy" />
-        <item itemvalue="Gradle.DecoratorPatternTest.decorator3" />
-        <item itemvalue="Gradle.DecoratorPatternTest" />
-        <item itemvalue="Gradle.DecoratorPatternTest.decorator2" />
+        <item itemvalue="Gradle.CglibTest.cglib" />
+        <item itemvalue="Gradle.JdkDynamicProxyTest" />
+        <item itemvalue="Gradle.JdkDynamicProxyTest.dynamicB" />
+        <item itemvalue="Gradle.JdkDynamicProxyTest.dynamicA" />
+        <item itemvalue="Gradle.ReflectionTest.reflection2" />
       </list>
     </recent_temporary>
   </component>
@@ -361,7 +375,7 @@
       <workItem from="1735443837348" duration="255000" />
       <workItem from="1735444479761" duration="50000" />
       <workItem from="1735444766935" duration="1949000" />
-      <workItem from="1735446756903" duration="10718000" />
+      <workItem from="1735446756903" duration="20792000" />
     </task>
     <task id="LOCAL-00001" summary="[Design Pattern] Strategy">
       <option name="closed" value="true" />
@@ -411,7 +425,15 @@
       <option name="project" value="LOCAL" />
       <updated>1735451660144</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="인터페이스, 구체 클래스 기반  프록시">
+      <option name="closed" value="true" />
+      <created>1735457607368</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1735457607368</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -446,6 +468,7 @@
     <MESSAGE value="delete files" />
     <MESSAGE value="[Design Pattern] Proxy" />
     <MESSAGE value="[Design Pattern] Decorator" />
-    <option name="LAST_COMMIT_MESSAGE" value="[Design Pattern] Decorator" />
+    <MESSAGE value="인터페이스, 구체 클래스 기반  프록시" />
+    <option name="LAST_COMMIT_MESSAGE" value="인터페이스, 구체 클래스 기반  프록시" />
   </component>
 </project>
