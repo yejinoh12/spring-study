@@ -4,17 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d3932f3-3be5-4e24-abe2-e23abcf8cfd0" name="Changes" comment="[Design Pattern] Proxy">
-      <change afterPath="$PROJECT_DIR$/proxy/src/test/java/hello/proxy/purepoxy/decorator/DecoratorPatternTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proxy/src/test/java/hello/proxy/purepoxy/decorator/code/Component.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proxy/src/test/java/hello/proxy/purepoxy/decorator/code/DecoratorPatternClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proxy/src/test/java/hello/proxy/purepoxy/decorator/code/MessageDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proxy/src/test/java/hello/proxy/purepoxy/decorator/code/RealComponent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proxy/src/test/java/hello/proxy/purepoxy/decorator/code/TimeDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proxy/src/test/java/hello/proxy/purepoxy/decorator/code/abstractdecorator/AbstractDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proxy/src/test/java/hello/proxy/purepoxy/decorator/code/abstractdecorator/MessageDecoratorV2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proxy/src/test/java/hello/proxy/purepoxy/decorator/code/abstractdecorator/TimeDecoratorV2.java" afterDir="false" />
+    <list default="true" id="9d3932f3-3be5-4e24-abe2-e23abcf8cfd0" name="Changes" comment="[Design Pattern] Decorator">
+      <change afterPath="$PROJECT_DIR$/proxy/src/main/java/hello/proxy/config/v1_proxy/ConcreteProxyConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proxy/src/main/java/hello/proxy/config/v1_proxy/InterfaceProxyConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proxy/src/main/java/hello/proxy/config/v1_proxy/concrete_proxy/OrderControllerConcreteProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proxy/src/main/java/hello/proxy/config/v1_proxy/concrete_proxy/OrderRepositoryConcreteProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proxy/src/main/java/hello/proxy/config/v1_proxy/concrete_proxy/OrderServiceConcreteProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proxy/src/main/java/hello/proxy/config/v1_proxy/interface_proxy/OrderControllerInterfaceProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proxy/src/main/java/hello/proxy/config/v1_proxy/interface_proxy/OrderRepositoryInterfaceProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proxy/src/main/java/hello/proxy/config/v1_proxy/interface_proxy/OrderServiceInterfaceProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proxy/src/test/java/hello/proxy/purepoxy/concreteproxy/ConcreteProxyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proxy/src/test/java/hello/proxy/purepoxy/concreteproxy/code/ConcreteClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proxy/src/test/java/hello/proxy/purepoxy/concreteproxy/code/ConcreteLogic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proxy/src/test/java/hello/proxy/purepoxy/concreteproxy/code/TimeProxy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proxy/src/main/java/hello/proxy/ProxyApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/proxy/src/main/java/hello/proxy/ProxyApplication.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +58,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="package-info" />
         <option value="Class" />
       </list>
     </option>
@@ -90,6 +95,8 @@
     "Gradle.Build advanced.executor": "Run",
     "Gradle.Build proxy.executor": "Run",
     "Gradle.C:/Users/cas/IdeaProjects/Spring/proxy-start/build.gradle.executor": "Run",
+    "Gradle.ConcreteProxyTest.addProxy.executor": "Run",
+    "Gradle.ConcreteProxyTest.noProxy.executor": "Run",
     "Gradle.DecoratorPatternClient.noDecorator.executor": "Run",
     "Gradle.DecoratorPatternTest.decorator1.executor": "Run",
     "Gradle.DecoratorPatternTest.decorator2.executor": "Run",
@@ -162,7 +169,55 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.DecoratorPatternTest">
+  <component name="RunManager" selected="Spring Boot.ProxyApplication">
+    <configuration name="ConcreteProxyTest.addProxy" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/proxy" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;hello.proxy.purepoxy.concreteproxy.ConcreteProxyTest.addProxy&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="ConcreteProxyTest.noProxy" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/proxy" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;hello.proxy.purepoxy.concreteproxy.ConcreteProxyTest.noProxy&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
     <configuration name="DecoratorPatternTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -177,30 +232,6 @@
             <option value=":test" />
             <option value="--tests" />
             <option value="&quot;hello.proxy.purepoxy.decorator.DecoratorPatternTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
-    <configuration name="DecoratorPatternTest.decorator1" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/proxy" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;hello.proxy.purepoxy.decorator.DecoratorPatternTest.decorator1&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -259,30 +290,6 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="DecoratorPatternTest.noDecorator" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/proxy" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;hello.proxy.purepoxy.decorator.DecoratorPatternTest.noDecorator&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="spring-study.advanced" />
       <method v="2">
@@ -311,21 +318,21 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Gradle.ConcreteProxyTest.addProxy" />
+      <item itemvalue="Gradle.ConcreteProxyTest.noProxy" />
       <item itemvalue="Gradle.DecoratorPatternTest" />
-      <item itemvalue="Gradle.DecoratorPatternTest.decorator1" />
       <item itemvalue="Gradle.DecoratorPatternTest.decorator2" />
       <item itemvalue="Gradle.DecoratorPatternTest.decorator3" />
-      <item itemvalue="Gradle.DecoratorPatternTest.noDecorator" />
       <item itemvalue="Spring Boot.AdvancedApplication" />
       <item itemvalue="Spring Boot.ProxyApplication" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.DecoratorPatternTest" />
+        <item itemvalue="Gradle.ConcreteProxyTest.addProxy" />
+        <item itemvalue="Gradle.ConcreteProxyTest.noProxy" />
         <item itemvalue="Gradle.DecoratorPatternTest.decorator3" />
+        <item itemvalue="Gradle.DecoratorPatternTest" />
         <item itemvalue="Gradle.DecoratorPatternTest.decorator2" />
-        <item itemvalue="Gradle.DecoratorPatternTest.decorator1" />
-        <item itemvalue="Gradle.DecoratorPatternTest.noDecorator" />
       </list>
     </recent_temporary>
   </component>
@@ -354,7 +361,7 @@
       <workItem from="1735443837348" duration="255000" />
       <workItem from="1735444479761" duration="50000" />
       <workItem from="1735444766935" duration="1949000" />
-      <workItem from="1735446756903" duration="4637000" />
+      <workItem from="1735446756903" duration="10718000" />
     </task>
     <task id="LOCAL-00001" summary="[Design Pattern] Strategy">
       <option name="closed" value="true" />
@@ -396,7 +403,15 @@
       <option name="project" value="LOCAL" />
       <updated>1735447019470</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="[Design Pattern] Decorator">
+      <option name="closed" value="true" />
+      <created>1735451660144</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1735451660144</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -430,6 +445,7 @@
     <MESSAGE value="Proxy Project Setting" />
     <MESSAGE value="delete files" />
     <MESSAGE value="[Design Pattern] Proxy" />
-    <option name="LAST_COMMIT_MESSAGE" value="[Design Pattern] Proxy" />
+    <MESSAGE value="[Design Pattern] Decorator" />
+    <option name="LAST_COMMIT_MESSAGE" value="[Design Pattern] Decorator" />
   </component>
 </project>
