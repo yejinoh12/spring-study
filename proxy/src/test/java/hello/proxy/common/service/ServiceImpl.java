@@ -1,4 +1,4 @@
-package hello.proxy.common;
+package hello.proxy.common.service;
 
 import lombok.extern.slf4j.Slf4j;
 
@@ -13,6 +13,6 @@ public class ServiceImpl implements ServiceInterface {
 
     @Override
     public void find() {
-        log.info("save 호출");
+        log.info("find 호출");
     }
 }

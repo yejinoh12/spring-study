@@ -1,7 +1,7 @@
 package hello.proxy.cglib;
 
 import hello.proxy.cglib.code.TimeMethodInterceptor;
-import hello.proxy.common.ConcreteService;
+import hello.proxy.common.service.ConcreteService;
 import lombok.extern.slf4j.Slf4j;
 import org.junit.jupiter.api.Test;
 import org.springframework.cglib.proxy.Enhancer;
@@ -21,8 +21,8 @@ public class CglibTest {
         enhancer.setSuperclass(ConcreteService.class);
         enhancer.setCallback(new TimeMethodInterceptor(target));
         ConcreteService proxy = (ConcreteService) enhancer.create();
-        log.info("targetClass={}", target.getClass()); //targetClass=class hello.proxy.common.ConcreteService
-        log.info("proxyClass={}", proxy.getClass()); //proxyClass=class hello.proxy.common.ConcreteService$$EnhancerByCGLIB$$1c94e8ce
+        log.info("targetClass={}", target.getClass()); //targetClass=class hello.proxy.common.service.ConcreteService
+        log.info("proxyClass={}", proxy.getClass()); //proxyClass=class hello.proxy.common.service.ConcreteService$$EnhancerByCGLIB$$1c94e8ce
         proxy.call();
     }
 }
