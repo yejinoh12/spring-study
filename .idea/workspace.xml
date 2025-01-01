@@ -4,12 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d3932f3-3be5-4e24-abe2-e23abcf8cfd0" name="Changes" comment="프록시 팩토리">
-      <change afterPath="$PROJECT_DIR$/proxy/src/main/java/hello/proxy/config/v3_proxyfactory/LogTraceAdvice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proxy/src/main/java/hello/proxy/config/v3_proxyfactory/ProxyFactoryConfigV1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proxy/src/main/java/hello/proxy/config/v3_proxyfactory/ProxyFactoryConfigV2.java" afterDir="false" />
+    <list default="true" id="9d3932f3-3be5-4e24-abe2-e23abcf8cfd0" name="Changes" comment="프록시 팩토리 적용">
+      <change afterPath="$PROJECT_DIR$/proxy/src/main/java/hello/proxy/config/v4_postprocessor/BeanPostProcessorConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proxy/src/main/java/hello/proxy/config/v4_postprocessor/PackageLogTracePostProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proxy/src/main/java/hello/proxy/config/v5_autoproxy/AutoProxyConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proxy/src/main/java/hello/proxy/config/v6_aop/AopConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proxy/src/main/java/hello/proxy/config/v6_aop/aspect/LogTraceAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proxy/src/test/java/hello/proxy/postprocessor/BasicTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proxy/src/test/java/hello/proxy/postprocessor/BeanPostProcessorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proxy/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/proxy/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/proxy/src/main/java/hello/proxy/ProxyApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/proxy/src/main/java/hello/proxy/ProxyApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proxy/src/main/java/hello/proxy/config/v3_proxyfactory/LogTraceAdvice.java" beforeDir="false" afterPath="$PROJECT_DIR$/proxy/src/main/java/hello/proxy/config/v3_proxyfactory/LogTraceAdvice.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,6 +94,8 @@
     "Gradle.AdvisorTest.advisorTest1.executor": "Run",
     "Gradle.AdvisorTest.advisorTest2.executor": "Run",
     "Gradle.AdvisorTest.advisorTest3.executor": "Run",
+    "Gradle.BasicTest.basicConfig.executor": "Run",
+    "Gradle.BeanPostProcessorTest.basicConfig.executor": "Run",
     "Gradle.Build advanced.executor": "Run",
     "Gradle.Build proxy.executor": "Run",
     "Gradle.C:/Users/cas/IdeaProjects/Spring/proxy-start/build.gradle.executor": "Run",
@@ -162,11 +172,11 @@
       <recent name="C:\Users\ohyej\OneDrive\spring-study\advanced\src\test" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="hello.proxy.postprocessor" />
       <recent name="hello.proxy.config.v3_proxyfactory" />
       <recent name="hello.proxy.config.v2_dynamicproxy" />
       <recent name="hello.proxy.config.v2_dynamicproxy.handler" />
       <recent name="hello.proxy.jdkdynamic.code" />
-      <recent name="hello.proxy.config" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -179,7 +189,7 @@
     </option>
   </component>
   <component name="RunManager" selected="Spring Boot.ProxyApplication">
-    <configuration name="AdvisorTest.advisorTest2" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="BasicTest.basicConfig" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/proxy" />
@@ -192,7 +202,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;hello.proxy.advisor.AdvisorTest.advisorTest2&quot;" />
+            <option value="&quot;hello.proxy.postprocessor.BasicTest.basicConfig&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -203,7 +213,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="AdvisorTest.advisorTest3" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="BeanPostProcessorTest.basicConfig" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/proxy" />
@@ -216,7 +226,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;hello.proxy.advisor.AdvisorTest.advisorTest3&quot;" />
+            <option value="&quot;hello.proxy.postprocessor.BeanPostProcessorTest.basicConfig&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -309,8 +319,8 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Gradle.AdvisorTest.advisorTest2" />
-      <item itemvalue="Gradle.AdvisorTest.advisorTest3" />
+      <item itemvalue="Gradle.BasicTest.basicConfig" />
+      <item itemvalue="Gradle.BeanPostProcessorTest.basicConfig" />
       <item itemvalue="Gradle.MultiAdvisorTest.multiAdvisorTest1" />
       <item itemvalue="Gradle.MultiAdvisorTest.multiAdvisorTest2" />
       <item itemvalue="Spring Boot.AdvancedApplication" />
@@ -319,10 +329,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.ProxyApplication" />
+        <item itemvalue="Gradle.BeanPostProcessorTest.basicConfig" />
+        <item itemvalue="Gradle.BasicTest.basicConfig" />
         <item itemvalue="Gradle.MultiAdvisorTest.multiAdvisorTest2" />
         <item itemvalue="Gradle.MultiAdvisorTest.multiAdvisorTest1" />
-        <item itemvalue="Gradle.AdvisorTest.advisorTest3" />
-        <item itemvalue="Gradle.AdvisorTest.advisorTest2" />
       </list>
     </recent_temporary>
   </component>
@@ -352,7 +362,7 @@
       <workItem from="1735444479761" duration="50000" />
       <workItem from="1735444766935" duration="1949000" />
       <workItem from="1735446756903" duration="25136000" />
-      <workItem from="1735644188412" duration="8849000" />
+      <workItem from="1735644188412" duration="21253000" />
     </task>
     <task id="LOCAL-00001" summary="[Design Pattern] Strategy">
       <option name="closed" value="true" />
@@ -426,7 +436,15 @@
       <option name="project" value="LOCAL" />
       <updated>1735692980404</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="프록시 팩토리 적용">
+      <option name="closed" value="true" />
+      <created>1735696263094</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1735696263094</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -464,6 +482,7 @@
     <MESSAGE value="인터페이스, 구체 클래스 기반  프록시" />
     <MESSAGE value="리플렉션, JDK 동적 프록시, Cglib" />
     <MESSAGE value="프록시 팩토리" />
-    <option name="LAST_COMMIT_MESSAGE" value="프록시 팩토리" />
+    <MESSAGE value="프록시 팩토리 적용" />
+    <option name="LAST_COMMIT_MESSAGE" value="프록시 팩토리 적용" />
   </component>
 </project>

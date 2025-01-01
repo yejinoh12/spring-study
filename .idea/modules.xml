@@ -7,6 +7,7 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.advanced.main.iml" filepath="$PROJECT_DIR$/.idea/modules/com.advanced.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.advanced.test.iml" filepath="$PROJECT_DIR$/.idea/modules/com.advanced.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/hello.proxy.main.iml" filepath="$PROJECT_DIR$/.idea/modules/hello.proxy.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/hello.proxy.test.iml" filepath="$PROJECT_DIR$/.idea/modules/hello.proxy.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/proxy.iml" filepath="$PROJECT_DIR$/.idea/modules/proxy.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/proxy.test.iml" filepath="$PROJECT_DIR$/.idea/modules/proxy.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring.iml" filepath="$PROJECT_DIR$/.idea/modules/spring.iml" />
