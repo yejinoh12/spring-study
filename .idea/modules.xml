@@ -4,7 +4,8 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/advanced/advanced.iml" filepath="$PROJECT_DIR$/advanced/advanced.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/aop.main.iml" filepath="$PROJECT_DIR$/.idea/modules/aop.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/basic/basic.iml" filepath="$PROJECT_DIR$/basic/basic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/basic.main.iml" filepath="$PROJECT_DIR$/.idea/modules/basic.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/basic.test.iml" filepath="$PROJECT_DIR$/.idea/modules/basic.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.advanced.iml" filepath="$PROJECT_DIR$/.idea/modules/com.advanced.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.advanced.main.iml" filepath="$PROJECT_DIR$/.idea/modules/com.advanced.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.advanced.test.iml" filepath="$PROJECT_DIR$/.idea/modules/com.advanced.test.iml" />
