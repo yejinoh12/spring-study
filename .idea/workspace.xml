@@ -1,0 +1,587 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9d3932f3-3be5-4e24-abe2-e23abcf8cfd0" name="Changes" comment="Spring AOP">
+      <change afterPath="$PROJECT_DIR$/aop/src/main/java/hello/aop/interalcall/CallServiceV0.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aop/src/main/java/hello/aop/interalcall/CallServiceV1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aop/src/main/java/hello/aop/interalcall/CallServiceV2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aop/src/main/java/hello/aop/interalcall/CallServiceV3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aop/src/main/java/hello/aop/interalcall/InternalService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aop/src/main/java/hello/aop/interalcall/aop/CallLogAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aop/src/test/java/hello/aop/interalcall/CallServiceV0Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aop/src/test/java/hello/aop/interalcall/CallServiceV1Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aop/src/test/java/hello/aop/interalcall/CallServiceV2Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aop/src/test/java/hello/aop/interalcall/CallServiceV3Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/src/main/java/hello/basic/BasicApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/src/test/java/hello/basic/BasicApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aop/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/aop/src/main/resources/application.properties" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/advanced">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/aop">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/proxy">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$/advanced">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/proxy">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/aop">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="package-info" />
+        <option value="Interface" />
+        <option value="AnnotationType" />
+        <option value="Class" />
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;yejinoh12&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/yejinoh12/spring-study.git&quot;,
+    &quot;accountId&quot;: &quot;9238a47d-afe6-4ffe-92e2-80a52a3b1091&quot;
+  }
+}</component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2qpws5lIq6f0TyLqxaKRWwAG5cB" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Gradle.AdvisorTest.advisorTest1.executor": "Run",
+    "Gradle.AdvisorTest.advisorTest2.executor": "Run",
+    "Gradle.AdvisorTest.advisorTest3.executor": "Run",
+    "Gradle.AopTest.aopInfo.executor": "Run",
+    "Gradle.AopTest.exception.executor": "Run",
+    "Gradle.AopTest.executor": "Run",
+    "Gradle.AopTest.success.executor": "Run",
+    "Gradle.BasicTest.basicConfig.executor": "Run",
+    "Gradle.BeanPostProcessorTest.basicConfig.executor": "Run",
+    "Gradle.Build advanced.executor": "Run",
+    "Gradle.Build aop.executor": "Run",
+    "Gradle.Build proxy.executor": "Run",
+    "Gradle.C:/Users/cas/IdeaProjects/Spring/proxy-start/build.gradle.executor": "Run",
+    "Gradle.CallServiceV0Test.external.executor": "Run",
+    "Gradle.CallServiceV0Test.internal.executor": "Run",
+    "Gradle.CallServiceV1Test.external.executor": "Run",
+    "Gradle.CallServiceV2Test.external.executor": "Run",
+    "Gradle.CallServiceV3Test.external.executor": "Run",
+    "Gradle.CglibTest.cglib.executor": "Run",
+    "Gradle.ConcreteProxyTest.addProxy.executor": "Run",
+    "Gradle.ConcreteProxyTest.noProxy.executor": "Run",
+    "Gradle.DecoratorPatternClient.noDecorator.executor": "Run",
+    "Gradle.DecoratorPatternTest.decorator1.executor": "Run",
+    "Gradle.DecoratorPatternTest.decorator2.executor": "Run",
+    "Gradle.DecoratorPatternTest.decorator3.executor": "Run",
+    "Gradle.DecoratorPatternTest.executor": "Run",
+    "Gradle.DecoratorPatternTest.noDecorator.executor": "Run",
+    "Gradle.ExamTest.test.executor": "Run",
+    "Gradle.HelloTrace2Test.begin_end.executor": "Run",
+    "Gradle.HelloTrace2Test.executor": "Run",
+    "Gradle.JdkDynamicProxyTest.dynamicA.executor": "Run",
+    "Gradle.JdkDynamicProxyTest.dynamicB.executor": "Run",
+    "Gradle.JdkDynamicProxyTest.executor": "Run",
+    "Gradle.MultiAdvisorTest.multiAdvisorTest1.executor": "Run",
+    "Gradle.MultiAdvisorTest.multiAdvisorTest2.executor": "Run",
+    "Gradle.ProxyApplicationTests.contextLoads.executor": "Run",
+    "Gradle.ProxyFactoryTest.concreteProxy.executor": "Run",
+    "Gradle.ProxyFactoryTest.interfaceProxy.executor": "Run",
+    "Gradle.ProxyFactoryTest.proxyTargetClass.executor": "Run",
+    "Gradle.ProxyPatternTest.cacheProxyTest.executor": "Run",
+    "Gradle.ProxyPatternTest.executor": "Run",
+    "Gradle.ProxyPatternTest.noProxyTest.executor": "Run",
+    "Gradle.ReflectionTest.reflection0.executor": "Run",
+    "Gradle.ReflectionTest.reflection1.executor": "Run",
+    "Gradle.ReflectionTest.reflection2.executor": "Run",
+    "Gradle.advanced [build].executor": "Run",
+    "Gradle.advanced [clean].executor": "Run",
+    "Gradle.advanced [testClasses].executor": "Run",
+    "JUnit.ContextV1Test.strategyV0.executor": "Run",
+    "JUnit.ContextV1Test.strategyV1.executor": "Run",
+    "JUnit.ContextV2Test.strategyV2.executor": "Run",
+    "JUnit.ContextV2Test.strategyV3.executor": "Run",
+    "JUnit.TemplateCallbackTest.executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Spring Boot.AdvancedApplication (1).executor": "Run",
+    "Spring Boot.AdvancedApplication.executor": "Run",
+    "Spring Boot.AopApplication.executor": "Run",
+    "Spring Boot.ProxyApplication.executor": "Run",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "git-widget-placeholder": "Rebasing main",
+    "ignore.virus.scanning.warn.message": "true",
+    "jdk.selected.JAVA_MODULE": "corretto-17",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/spring-study",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "run.configurations.included.in.services": "true",
+    "service.view.auto.scroll.from.source": "true",
+    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\spring-study\proxy\src\test\java\hello\proxy\jdkdynamic\code" />
+      <recent name="C:\Users\ohyej\OneDrive\spring-study\proxy\src\main\java\hello\proxy\app\v3" />
+      <recent name="C:\Users\ohyej\OneDrive\spring-study\proxy\src\main\java\hello\proxy\app\v2" />
+      <recent name="C:\Users\ohyej\OneDrive\spring-study\advanced\src\main\java\yejin\advanced\app\v5" />
+      <recent name="C:\Users\cas\IdeaProjects\Spring" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ohyej\OneDrive\spring-study\advanced\src\test" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="hello.aop.interalcall" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="hello.aop.interalcall" />
+      <recent name="hello.aop.exam" />
+      <recent name="hello.aop.order.aop" />
+      <recent name="hello.proxy.postprocessor" />
+      <recent name="hello.proxy.config.v3_proxyfactory" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="MicronautRunConfigurationType" />
+        <option value="QuarkusRunConfigurationType" />
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Gradle.CallServiceV3Test.external">
+    <configuration name="CallServiceV0Test.external" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/aop" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;hello.aop.interalcall.CallServiceV0Test.external&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="CallServiceV0Test.internal" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/aop" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;hello.aop.interalcall.CallServiceV0Test.internal&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="CallServiceV1Test.external" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/aop" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;hello.aop.interalcall.CallServiceV1Test.external&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="CallServiceV2Test.external" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/aop" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;hello.aop.interalcall.CallServiceV2Test.external&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="CallServiceV3Test.external" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/aop" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;hello.aop.interalcall.CallServiceV3Test.external&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="spring-study.advanced" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="spring-study.advanced" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AdvancedApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-study.advanced.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.advanced.AdvancedApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AopApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="aop.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="hello.aop.AopApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Gradle.CallServiceV0Test.external" />
+      <item itemvalue="Gradle.CallServiceV0Test.internal" />
+      <item itemvalue="Gradle.CallServiceV1Test.external" />
+      <item itemvalue="Gradle.CallServiceV2Test.external" />
+      <item itemvalue="Gradle.CallServiceV3Test.external" />
+      <item itemvalue="Spring Boot.AopApplication" />
+      <item itemvalue="Spring Boot.AdvancedApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.CallServiceV3Test.external" />
+        <item itemvalue="Gradle.CallServiceV2Test.external" />
+        <item itemvalue="Gradle.CallServiceV1Test.external" />
+        <item itemvalue="Gradle.CallServiceV0Test.internal" />
+        <item itemvalue="Gradle.CallServiceV0Test.external" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.18034.62" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.18034.62" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9d3932f3-3be5-4e24-abe2-e23abcf8cfd0" name="Changes" comment="" />
+      <created>1735373028500</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1735373028500</updated>
+      <workItem from="1735373029664" duration="390000" />
+      <workItem from="1735401009340" duration="4548000" />
+      <workItem from="1735413536365" duration="90000" />
+      <workItem from="1735413765820" duration="265000" />
+      <workItem from="1735414289484" duration="652000" />
+      <workItem from="1735440768356" duration="3020000" />
+      <workItem from="1735443837348" duration="255000" />
+      <workItem from="1735444479761" duration="50000" />
+      <workItem from="1735444766935" duration="1949000" />
+      <workItem from="1735446756903" duration="25136000" />
+      <workItem from="1735644188412" duration="35082000" />
+      <workItem from="1735972477652" duration="754000" />
+    </task>
+    <task id="LOCAL-00001" summary="[Design Pattern] Strategy">
+      <option name="closed" value="true" />
+      <created>1735403932526</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1735403932526</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Proxy Project Setting">
+      <option name="closed" value="true" />
+      <created>1735413802976</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1735413802976</updated>
+    </task>
+    <task id="LOCAL-00003" summary="delete files">
+      <option name="closed" value="true" />
+      <created>1735413960116</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1735413960116</updated>
+    </task>
+    <task id="LOCAL-00004" summary="[Design Pattern] Proxy">
+      <option name="closed" value="true" />
+      <created>1735447010400</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1735447010400</updated>
+    </task>
+    <task id="LOCAL-00005" summary="[Design Pattern] Proxy">
+      <option name="closed" value="true" />
+      <created>1735447019470</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1735447019470</updated>
+    </task>
+    <task id="LOCAL-00006" summary="[Design Pattern] Decorator">
+      <option name="closed" value="true" />
+      <created>1735451660144</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1735451660144</updated>
+    </task>
+    <task id="LOCAL-00007" summary="인터페이스, 구체 클래스 기반  프록시">
+      <option name="closed" value="true" />
+      <created>1735457607368</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1735457607368</updated>
+    </task>
+    <task id="LOCAL-00008" summary="리플렉션, JDK 동적 프록시, Cglib">
+      <option name="closed" value="true" />
+      <created>1735474240942</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1735474240942</updated>
+    </task>
+    <task id="LOCAL-00009" summary="프록시 팩토리">
+      <option name="closed" value="true" />
+      <created>1735692980404</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1735692980404</updated>
+    </task>
+    <task id="LOCAL-00010" summary="프록시 팩토리 적용">
+      <option name="closed" value="true" />
+      <created>1735696263094</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1735696263094</updated>
+    </task>
+    <task id="LOCAL-00011" summary="BeanPostProcessor, @Aspect">
+      <option name="closed" value="true" />
+      <created>1735717737978</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1735717737978</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Spring AOP 프로젝트 생성">
+      <option name="closed" value="true" />
+      <created>1735727013716</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1735727013716</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Spring AOP, Annotation">
+      <option name="closed" value="true" />
+      <created>1735733151139</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1735733151139</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="[Design Pattern] Strategy" />
+    <MESSAGE value="Proxy Project Setting" />
+    <MESSAGE value="delete files" />
+    <MESSAGE value="[Design Pattern] Proxy" />
+    <MESSAGE value="[Design Pattern] Decorator" />
+    <MESSAGE value="인터페이스, 구체 클래스 기반  프록시" />
+    <MESSAGE value="리플렉션, JDK 동적 프록시, Cglib" />
+    <MESSAGE value="프록시 팩토리" />
+    <MESSAGE value="프록시 팩토리 적용" />
+    <MESSAGE value="BeanPostProcessor, @Aspect" />
+    <MESSAGE value="Spring AOP 프로젝트 생성" />
+    <MESSAGE value="Spring AOP, Annotation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Spring AOP, Annotation" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/aop/src/main/java/hello/aop/AopApplication.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
