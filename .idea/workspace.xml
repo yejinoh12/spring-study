@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
 <<<<<<< HEAD
+<<<<<<< HEAD
     <list default="true" id="9d3932f3-3be5-4e24-abe2-e23abcf8cfd0" name="Changes" comment="Spring AOP">
       <change afterPath="$PROJECT_DIR$/aop/src/main/java/hello/aop/interalcall/CallServiceV0.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/aop/src/main/java/hello/aop/interalcall/CallServiceV1.java" afterDir="false" />
@@ -35,9 +36,17 @@
       <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
 >>>>>>> 8a48c9e ([Bean Scope] Singleton, Prototype, Provider)
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+=======
+    <list default="true" id="9d3932f3-3be5-4e24-abe2-e23abcf8cfd0" name="Changes" comment="[Bean Scope] Singleton, Prototype, Provider">
+      <change afterPath="$PROJECT_DIR$/basic/src/main/java/hello/basic/common/MyLogger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/src/main/java/hello/basic/web/LogDemoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/src/main/java/hello/basic/web/LogDemoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+>>>>>>> 66687e2 (Web Scope, create springmvc project)
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basic/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/basic/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basic/src/test/java/hello/basic/scope/SingletonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/basic/src/test/java/hello/basic/scope/SingletonTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/basic/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/src/test/java/hello/basic/scope/SingletonWithPrototypeTest1.java" beforeDir="false" afterPath="$PROJECT_DIR$/basic/src/test/java/hello/basic/scope/SingletonWithPrototypeTest1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +67,9 @@
       <ProjectState />
     </projectState>
     <projectState path="$PROJECT_DIR$/proxy">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/springmvc">
       <ProjectState />
     </projectState>
   </component>
@@ -132,11 +144,13 @@
     "Gradle.AopTest.exception.executor": "Run",
     "Gradle.AopTest.executor": "Run",
     "Gradle.AopTest.success.executor": "Run",
+    "Gradle.BasicApplicationTests.contextLoads.executor": "Run",
     "Gradle.BasicTest.basicConfig.executor": "Run",
     "Gradle.BeanLifeCycleTest.lifeCycleTest.executor": "Run",
     "Gradle.BeanPostProcessorTest.basicConfig.executor": "Run",
     "Gradle.Build advanced.executor": "Run",
     "Gradle.Build aop.executor": "Run",
+    "Gradle.Build basic.executor": "Run",
     "Gradle.Build proxy.executor": "Run",
     "Gradle.C:/Users/cas/IdeaProjects/Spring/proxy-start/build.gradle.executor": "Run",
     "Gradle.CallServiceV0Test.external.executor": "Run",
@@ -174,6 +188,7 @@
     "Gradle.ReflectionTest.reflection2.executor": "Run",
     "Gradle.SingletonTest.prototypeBeanFind.executor": "Run",
     "Gradle.SingletonTest.singletonBeanFind.executor": "Run",
+    "Gradle.SingletonWithPrototypeTest1.executor": "Run",
     "Gradle.SingletonWithPrototypeTest1.prototypeFind.executor": "Run",
     "Gradle.SingletonWithPrototypeTest1.singletonClientUserPrototype.executor": "Run",
     "Gradle.SingletonWithPrototypeTest1.singletonClientUserPrototype2.executor": "Run",
@@ -195,6 +210,7 @@
     "Spring Boot.AdvancedApplication (1).executor": "Run",
     "Spring Boot.AdvancedApplication.executor": "Run",
     "Spring Boot.AopApplication.executor": "Run",
+    "Spring Boot.BasicApplication.executor": "Run",
     "Spring Boot.ProxyApplication.executor": "Run",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
@@ -202,7 +218,7 @@
     "ignore.virus.scanning.warn.message": "true",
     "jdk.selected.JAVA_MODULE": "corretto-17",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/spring-study",
+    "last_opened_file_path": "C:/bwBuilder",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -251,8 +267,8 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.SingletonWithPrototypeTest1">
-    <configuration name="PrototypeTest.singletonBeanFind" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Spring Boot.BasicApplication">
+    <configuration name="BasicApplicationTests.contextLoads" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/basic" />
@@ -265,7 +281,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;hello.basic.scope.PrototypeTest.singletonBeanFind&quot;" />
+            <option value="&quot;hello.basic.BasicApplicationTests.contextLoads&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -406,23 +422,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SpringmvcApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="springmvc.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="hello.springmvc.SpringmvcApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Gradle.PrototypeTest.singletonBeanFind" />
+      <item itemvalue="Gradle.BasicApplicationTests.contextLoads" />
       <item itemvalue="Gradle.SingletonWithPrototypeTest1" />
       <item itemvalue="Gradle.SingletonWithPrototypeTest1.prototypeFind" />
-      <item itemvalue="Gradle.SingletonWithPrototypeTest1.singletonClientUserPrototype" />
       <item itemvalue="Gradle.SingletonWithPrototypeTest1.singletonClientUserPrototype2" />
-      <item itemvalue="Spring Boot.BasicApplication" />
-      <item itemvalue="Spring Boot.AopApplication" />
+      <item itemvalue="Gradle.SingletonWithPrototypeTest1.singletonClientUserPrototype" />
+      <item itemvalue="Spring Boot.SpringmvcApplication" />
       <item itemvalue="Spring Boot.AdvancedApplication" />
+      <item itemvalue="Spring Boot.AopApplication" />
+      <item itemvalue="Spring Boot.BasicApplication" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.SingletonWithPrototypeTest1" />
-        <item itemvalue="Gradle.SingletonWithPrototypeTest1.singletonClientUserPrototype2" />
+        <item itemvalue="Gradle.BasicApplicationTests.contextLoads" />
         <item itemvalue="Gradle.SingletonWithPrototypeTest1.singletonClientUserPrototype" />
         <item itemvalue="Gradle.SingletonWithPrototypeTest1.prototypeFind" />
-        <item itemvalue="Gradle.PrototypeTest.singletonBeanFind" />
+        <item itemvalue="Gradle.SingletonWithPrototypeTest1" />
+        <item itemvalue="Gradle.SingletonWithPrototypeTest1.singletonClientUserPrototype2" />
       </list>
     </recent_temporary>
   </component>
@@ -453,7 +477,9 @@
       <workItem from="1735444766935" duration="1949000" />
       <workItem from="1735446756903" duration="25136000" />
       <workItem from="1735644188412" duration="35082000" />
-      <workItem from="1735972477652" duration="7977000" />
+      <workItem from="1735972477652" duration="11916000" />
+      <workItem from="1736011157496" duration="5000" />
+      <workItem from="1736043451854" duration="5821000" />
     </task>
     <task id="LOCAL-00001" summary="[Design Pattern] Strategy">
       <option name="closed" value="true" />
@@ -575,7 +601,15 @@
       <option name="project" value="LOCAL" />
       <updated>1735976488725</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="[Bean Scope] Singleton, Prototype, Provider">
+      <option name="closed" value="true" />
+      <created>1735981277627</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1735981277627</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -619,7 +653,8 @@
     <MESSAGE value="Spring AOP, Annotation" />
     <MESSAGE value="Basic Project 추가" />
     <MESSAGE value="빈 생명주기 콜백 3가지 방법" />
-    <option name="LAST_COMMIT_MESSAGE" value="빈 생명주기 콜백 3가지 방법" />
+    <MESSAGE value="[Bean Scope] Singleton, Prototype, Provider" />
+    <option name="LAST_COMMIT_MESSAGE" value="[Bean Scope] Singleton, Prototype, Provider" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

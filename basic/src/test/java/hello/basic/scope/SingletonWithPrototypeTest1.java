@@ -29,10 +29,25 @@ public class SingletonWithPrototypeTest1 {
         assertThat(prototypeBean1.getCount()).isEqualTo(1);
     }
 
+    @Test
+    void singletonClientUserPrototype(){
+        //컴포넌트 스캔으로 빈 등록
+        AnnotationConfigApplicationContext ac =
+                new AnnotationConfigApplicationContext(ClientBean.class, PrototypeBean.class);
+
+        ClientBean clientBean1 = ac.getBean(ClientBean.class);
+        int count1 = clientBean1.logic();
+        assertThat(count1).isEqualTo(1);
+
+        ClientBean clientBean2 = ac.getBean(ClientBean.class);
+        int count2 = clientBean2.logic();
+        assertThat(count2).isEqualTo(1);
+    }
+
     //import org.springframework.beans.factory.ObjectProvider;
     //스프링 의존
     @Test
-    void singletonClientUserPrototype(){
+    void singletonClientUserPrototype2(){
         //컴포넌트 스캔으로 빈 등록
         AnnotationConfigApplicationContext ac =
                 new AnnotationConfigApplicationContext(ClientBean2.class, PrototypeBean.class);
@@ -49,7 +64,7 @@ public class SingletonWithPrototypeTest1 {
     //import jakarta.inject.Provider;
     //자바 표준 기술
     @Test
-    void singletonClientUserPrototype2(){
+    void singletonClientUserPrototype3(){
         //컴포넌트 스캔으로 빈 등록
         AnnotationConfigApplicationContext ac =
                 new AnnotationConfigApplicationContext(ClientBean3.class, PrototypeBean.class);
