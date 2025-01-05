@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     <list default="true" id="9d3932f3-3be5-4e24-abe2-e23abcf8cfd0" name="Changes" comment="Spring AOP">
       <change afterPath="$PROJECT_DIR$/aop/src/main/java/hello/aop/interalcall/CallServiceV0.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/aop/src/main/java/hello/aop/interalcall/CallServiceV1.java" afterDir="false" />
@@ -44,9 +45,34 @@
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
 >>>>>>> 66687e2 (Web Scope, create springmvc project)
+=======
+    <list default="true" id="9d3932f3-3be5-4e24-abe2-e23abcf8cfd0" name="Changes" comment="Web Scope, create springmvc project">
+      <change afterPath="$PROJECT_DIR$/springmvc/src/main/java/hello/springmvc/basic/HelloData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc/src/main/java/hello/springmvc/basic/request/RequestBodyStringController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc/src/main/java/hello/springmvc/basic/request/RequestHeaderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc/src/main/java/hello/springmvc/basic/request/RequestParamController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc/src/main/java/hello/springmvc/basic/requestmapping/MappingController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc/src/main/java/hello/springmvc/basic/response/ResponseBodyController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc/src/main/java/hello/springmvc/basic/response/ResponseViewController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc/src/main/java/hello/springmvc/itemservice/domain/item/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc/src/main/java/hello/springmvc/itemservice/domain/item/ItemRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc/src/main/resources/static/basic/hello-form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc/src/main/resources/static/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc/src/main/resources/static/html/addForm.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc/src/main/resources/static/html/editForm.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc/src/main/resources/static/html/item.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc/src/main/resources/static/html/items.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc/src/main/resources/static/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc/src/main/resources/static/mvc-index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc/src/main/resources/templates/response/hello.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc/src/test/java/hello/springmvc/itemservice/domain/item/ItemRepositoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+>>>>>>> 0859d99 ([Spring MVC] 요청/응답 기본 기능)
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basic/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/basic/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basic/src/test/java/hello/basic/scope/SingletonWithPrototypeTest1.java" beforeDir="false" afterPath="$PROJECT_DIR$/basic/src/test/java/hello/basic/scope/SingletonWithPrototypeTest1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springmvc/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/springmvc/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springmvc/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/springmvc/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,8 +129,9 @@
         <option value="package-info" />
         <option value="Interface" />
         <option value="AnnotationType" />
-        <option value="JUnit5 Test Class" />
+        <option value="HTML File" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -137,6 +164,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
     "Gradle.AdvisorTest.advisorTest1.executor": "Run",
     "Gradle.AdvisorTest.advisorTest2.executor": "Run",
     "Gradle.AdvisorTest.advisorTest3.executor": "Run",
@@ -152,6 +180,7 @@
     "Gradle.Build aop.executor": "Run",
     "Gradle.Build basic.executor": "Run",
     "Gradle.Build proxy.executor": "Run",
+    "Gradle.Build springmvc.executor": "Run",
     "Gradle.C:/Users/cas/IdeaProjects/Spring/proxy-start/build.gradle.executor": "Run",
     "Gradle.CallServiceV0Test.external.executor": "Run",
     "Gradle.CallServiceV0Test.internal.executor": "Run",
@@ -170,6 +199,9 @@
     "Gradle.ExamTest.test.executor": "Run",
     "Gradle.HelloTrace2Test.begin_end.executor": "Run",
     "Gradle.HelloTrace2Test.executor": "Run",
+    "Gradle.ItemRepositoryTest.findAll.executor": "Run",
+    "Gradle.ItemRepositoryTest.save.executor": "Run",
+    "Gradle.ItemRepositoryTest.updateItem.executor": "Run",
     "Gradle.JdkDynamicProxyTest.dynamicA.executor": "Run",
     "Gradle.JdkDynamicProxyTest.dynamicB.executor": "Run",
     "Gradle.JdkDynamicProxyTest.executor": "Run",
@@ -212,13 +244,14 @@
     "Spring Boot.AopApplication.executor": "Run",
     "Spring Boot.BasicApplication.executor": "Run",
     "Spring Boot.ProxyApplication.executor": "Run",
+    "Spring Boot.SpringmvcApplication.executor": "Run",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "git-widget-placeholder": "Rebasing main",
     "ignore.virus.scanning.warn.message": "true",
     "jdk.selected.JAVA_MODULE": "corretto-17",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/bwBuilder",
+    "last_opened_file_path": "C:/spring-study/springmvc/src/main/resources/static/css",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -235,19 +268,21 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\spring-study\springmvc\src\main\resources\static\css" />
       <recent name="C:\spring-study\proxy\src\test\java\hello\proxy\jdkdynamic\code" />
       <recent name="C:\Users\ohyej\OneDrive\spring-study\proxy\src\main\java\hello\proxy\app\v3" />
       <recent name="C:\Users\ohyej\OneDrive\spring-study\proxy\src\main\java\hello\proxy\app\v2" />
       <recent name="C:\Users\ohyej\OneDrive\spring-study\advanced\src\main\java\yejin\advanced\app\v5" />
-      <recent name="C:\Users\cas\IdeaProjects\Spring" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\spring-study\springmvc\src\main\resources\static" />
       <recent name="C:\Users\ohyej\OneDrive\spring-study\advanced\src\test" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="hello.springmvc.itemservice.domain.item" />
       <recent name="hello.aop.interalcall" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -267,7 +302,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.BasicApplication">
+  <component name="RunManager" selected="Gradle.ItemRepositoryTest.updateItem">
     <configuration name="BasicApplicationTests.contextLoads" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -292,10 +327,10 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="SingletonWithPrototypeTest1" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="ItemRepositoryTest.findAll" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/basic" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/springmvc" />
         <option name="externalSystemIdString" value="GRADLE" />
         <option name="scriptParameters" value="" />
         <option name="taskDescriptions">
@@ -305,7 +340,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;hello.basic.scope.SingletonWithPrototypeTest1&quot;" />
+            <option value="&quot;hello.springmvc.itemservice.domain.item.ItemRepositoryTest.findAll&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -316,10 +351,10 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="SingletonWithPrototypeTest1.prototypeFind" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="ItemRepositoryTest.save" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/basic" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/springmvc" />
         <option name="externalSystemIdString" value="GRADLE" />
         <option name="scriptParameters" value="" />
         <option name="taskDescriptions">
@@ -329,7 +364,31 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;hello.basic.scope.SingletonWithPrototypeTest1.prototypeFind&quot;" />
+            <option value="&quot;hello.springmvc.itemservice.domain.item.ItemRepositoryTest.save&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="ItemRepositoryTest.updateItem" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/springmvc" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;hello.springmvc.itemservice.domain.item.ItemRepositoryTest.updateItem&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -354,30 +413,6 @@
             <option value=":test" />
             <option value="--tests" />
             <option value="&quot;hello.basic.scope.SingletonWithPrototypeTest1.singletonClientUserPrototype&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
-    <configuration name="SingletonWithPrototypeTest1.singletonClientUserPrototype2" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/basic" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;hello.basic.scope.SingletonWithPrototypeTest1.singletonClientUserPrototype2&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -431,9 +466,9 @@
     </configuration>
     <list>
       <item itemvalue="Gradle.BasicApplicationTests.contextLoads" />
-      <item itemvalue="Gradle.SingletonWithPrototypeTest1" />
-      <item itemvalue="Gradle.SingletonWithPrototypeTest1.prototypeFind" />
-      <item itemvalue="Gradle.SingletonWithPrototypeTest1.singletonClientUserPrototype2" />
+      <item itemvalue="Gradle.ItemRepositoryTest.findAll" />
+      <item itemvalue="Gradle.ItemRepositoryTest.save" />
+      <item itemvalue="Gradle.ItemRepositoryTest.updateItem" />
       <item itemvalue="Gradle.SingletonWithPrototypeTest1.singletonClientUserPrototype" />
       <item itemvalue="Spring Boot.SpringmvcApplication" />
       <item itemvalue="Spring Boot.AdvancedApplication" />
@@ -442,11 +477,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.ItemRepositoryTest.updateItem" />
+        <item itemvalue="Gradle.ItemRepositoryTest.findAll" />
+        <item itemvalue="Gradle.ItemRepositoryTest.save" />
         <item itemvalue="Gradle.BasicApplicationTests.contextLoads" />
         <item itemvalue="Gradle.SingletonWithPrototypeTest1.singletonClientUserPrototype" />
-        <item itemvalue="Gradle.SingletonWithPrototypeTest1.prototypeFind" />
-        <item itemvalue="Gradle.SingletonWithPrototypeTest1" />
-        <item itemvalue="Gradle.SingletonWithPrototypeTest1.singletonClientUserPrototype2" />
       </list>
     </recent_temporary>
   </component>
@@ -479,7 +514,7 @@
       <workItem from="1735644188412" duration="35082000" />
       <workItem from="1735972477652" duration="11916000" />
       <workItem from="1736011157496" duration="5000" />
-      <workItem from="1736043451854" duration="5821000" />
+      <workItem from="1736043451854" duration="15085000" />
     </task>
     <task id="LOCAL-00001" summary="[Design Pattern] Strategy">
       <option name="closed" value="true" />
@@ -609,7 +644,15 @@
       <option name="project" value="LOCAL" />
       <updated>1735981277627</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Web Scope, create springmvc project">
+      <option name="closed" value="true" />
+      <created>1736054391159</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1736054391159</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -654,7 +697,8 @@
     <MESSAGE value="Basic Project 추가" />
     <MESSAGE value="빈 생명주기 콜백 3가지 방법" />
     <MESSAGE value="[Bean Scope] Singleton, Prototype, Provider" />
-    <option name="LAST_COMMIT_MESSAGE" value="[Bean Scope] Singleton, Prototype, Provider" />
+    <MESSAGE value="Web Scope, create springmvc project" />
+    <option name="LAST_COMMIT_MESSAGE" value="Web Scope, create springmvc project" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

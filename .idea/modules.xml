@@ -14,8 +14,6 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/proxy.iml" filepath="$PROJECT_DIR$/.idea/modules/proxy.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/proxy.test.iml" filepath="$PROJECT_DIR$/.idea/modules/proxy.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring.iml" filepath="$PROJECT_DIR$/.idea/modules/spring.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring-study.advanced.main.iml" filepath="$PROJECT_DIR$/.idea/modules/spring-study.advanced.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring-study.advanced.test.iml" filepath="$PROJECT_DIR$/.idea/modules/spring-study.advanced.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring.main.iml" filepath="$PROJECT_DIR$/.idea/modules/spring.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring.test.iml" filepath="$PROJECT_DIR$/.idea/modules/spring.test.iml" />
     </modules>
